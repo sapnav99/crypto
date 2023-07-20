@@ -1,0 +1,151 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 350px;
+  margin: 5px auto;
+  border: none;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 300px;
+  margin: 5px auto;
+  border: none;
+}
+
+.card-header {
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin-bottom: 16px;
+  border: none;
+}
+
+.header-content {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  border: none;
+}
+
+.card-img-top {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  border: none;
+  display: block;
+}
+
+.labels {
+  display: flex;
+  align-items: center; /* Use align-items: center instead of align-items: flex-start */
+  justify-content: flex-start;
+  margin-top: 10px;
+  border:none;
+}
+.labels label {
+  margin: 0; /* Remove the default margin for the labels */
+  font-size: 24px;
+  font-weight: 500;
+  border: none;
+}
+.card-text {
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 8px;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 15px;
+  border: none;
+}
+.price-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.pill {
+  background-color: rgb(241, 63, 131);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 16px;
+}
+
+.tabs-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.tab {
+  
+  border: none;
+  padding: 8px 16px;
+  margin-right: 8px;
+  border-radius: 8px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.tab.active {
+  background-color: #e0e0e0;
+}
+
+.down-icon-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.down-icon {
+  font-size: 24px;
+}
+.chart-container {
+  background-color: white;
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto 0;
+}
+.options-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.buy-button {
+  margin-right: 10px;
+  padding: 8px 16px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+.sell-button {
+  padding: 8px 16px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+

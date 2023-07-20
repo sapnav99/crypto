@@ -1,0 +1,25 @@
+.tabs-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    margin-right: 10px;
+    
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    background-color: #ccc;
+  }
+  
+  .chart-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  

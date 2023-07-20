@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e4f14c4c.css",
+    "main.js": "/static/js/main.7c576838.js",
+    "static/media/icons8-bitcoin.svg": "/static/media/icons8-bitcoin.57962351ea2eebcab41af410443b3021.svg",
+    "index.html": "/index.html",
+    "main.e4f14c4c.css.map": "/static/css/main.e4f14c4c.css.map",
+    "main.7c576838.js.map": "/static/js/main.7c576838.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4f14c4c.css",
+    "static/js/main.7c576838.js"
+  ]
+}
